@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container {
+  width: 50%;
+  height: 10%;
+  margin: 50px auto;
+  position: relative;
+}
+
+.upper-container1 {
+  width: 35%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+#task {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#list {
+  font-size: 2.5rem;
+  margin-left: 10px;
+  opacity: 0.5;
+}
+
+.upper-container2 {
+  width: 30%;
+  height: 100%;
+  padding-top: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#circle {
+  color: orangered;
+}
+
+#add-list {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  opacity: 0.5;
+  padding-top: 20px;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 60px 100px;
+}
+.card1 {
+  margin-top: 10px;
+  border: 1.5px solid green;
+  width: 15%;
+  height: 45vh;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px gray;
+  margin: auto;
+  left: 180px;
+}
+.card2 {
+  margin-top: 10px;
+  border: 1.5px solid green;
+  width: 15%;
+  height: 45vh;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px gray;
+  margin: auto;
+}
+.card3 {
+  margin-top: 10px;
+  border: 1.5px solid green;
+  width: 15%;
+  height: 45vh;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px gray;
+  margin: auto;
+  right: 180px;
+}
+.c1 {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  font-size: 25px;
+  width: 85%;
+  text-align: right;
+  height: 15%;
+  color: red;
+  border-bottom: 1px solid black;
+}
+
+.c2 {
+  width: 90%;
+  height: 10%;
+  font-size: 22px;
+  color: skyblue;
+  text-decoration: line-through;
+  text-align: right;
+  position: absolute;
+  top: 35%;
+  font-weight: bold;
+}
+
+.card3 {
+  margin-top: 10px;
+  border: 1.5px solid green;
+  width: 15%;
+  height: 45vh;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px gray;
+  margin: auto;
+}
+.c3 {
+  width: 90%;
+  height: 10%;
+  position: absolute;
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  top: 54%;
+}
+
+#checkbox {
+  width: 19px;
+  height: 19px;
+  margin-left: 10px;
+}
+
+.notshow {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.pop-up {
+  position: absolute;
+  left: 37%;
+  top: 30%;
+  height: 30vh;
+  width: 27%;
+  border: 1.5px solid red;
+  border-radius: 10px;
+  color: red;
+  font-size: 18px;
+  box-shadow: 3px 3px 10px gray;
+  background-color: white;
+  padding-top: 16px;
+}
+#add-new {
+  opacity: 0.8px;
+  font-size: 27px;
+  height: 10vh;
+}
+.pop-upbar {
+  margin: 5px;
+  border-radius: 5px;
+  width: 85%;
+  height: 5vh;
+  border: 1.5px solid red;
+  box-shadow: 1px 1px 3px gray;
+  font-size: 30px;
+}
+.pop-upbutton {
+  background-color: red;
+  width: 25%;
+  height: 40px;
+  font-size: large;
+  border-radius: 15px;
+  margin-top: 30px;
+  color: white;
+}
+
+.carddtl1 {
+  border: 1.5px solid green;
+  width: 25%;
+  height: 50vh;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px gray;
+  margin: auto;
+  top: 120px;
+  left: auto;
+}
+.plus {
+  position: relative;
+  width: 2.5rem;
+  bottom: -21rem;
+  margin-left: auto;
+}
+
+.dtlc1 {
+  position: absolute;
+  top: 10%;
+  right: 0px;
+  font-size: 25px;
+  width: 85%;
+  text-align: left;
+  height: 15%;
+  color: red;
+  border-bottom: 1px solid black;
+}
+
+.dtlc2 {
+  width: 90%;
+  height: 10%;
+  font-size: 22px;
+  color: skyblue;
+  text-decoration: line-through;
+  text-align: left;
+  position: absolute;
+  top: 35%;
+  left: 60px;
+  font-weight: bold;
+}
+
+.dtlc3 {
+  width: 90%;
+  height: 10%;
+  position: absolute;
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  top: 54%;
+  left: 50px;
+}
+
+.header {
+  font-size: 66px;
+  position: relative;
+}
+#back-arrow {
+  color: orangered;
+  position: absolute;
+}
+.backmain {
+  display: flex;
+  position: relative;
+  width: 8%;
+  height: 10%;
+  margin: 20px auto;
+}
+.back {
+  position: absolute;
+  font-size: 40px;
+  left: 50%;
+  opacity: 0.8px;
+}
